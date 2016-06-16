@@ -1,7 +1,8 @@
 identidock:
-  build: .
+  image: b00tsy/identidock_autobuild:auto
   ports:
     - "5000:5000"
+    - "9000:9000"
   environment:
     ENV: DEV
   volumes:
